@@ -6,7 +6,7 @@
 ## Task 0: Setting up your ASP.NET Core project
 1. Open up VS Code. Create a new ASP.NET Core project using the `webapp` template with the following terminal command: `dotnet new webapp`
   
-2. ASP.NET Core projects run in a web server, not the console. Click Debug => Start Without Debugging or CTRL+F5 to run the project. You can also type `dotnet run` and go to the web site manually.
+2. ASP.NET Core projects run in a web server, not the console. Click Run => Run Without Debugging or CTRL+F5 to run the project. You can also type `dotnet run` and go to the web site manually.
   
 3. Browse the web site in your web browser. The URL is http://localhost:5000/. The web site may have an invalid security certificate. Allow an exception for it.
   
@@ -58,9 +58,9 @@
     {
         public class TimeModel : PageModel
         {
-            private readonly ILogger<IndexModel> _logger;
+            private readonly ILogger<TimeModel> _logger;
 
-            public IndexModel(ILogger<IndexModel> logger)
+            public TimeModel(ILogger<TimeModel> logger)
             {
                 _logger = logger;
             }
