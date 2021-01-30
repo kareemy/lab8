@@ -22,10 +22,10 @@
     - `@{ ... }` => Everything inside these curly braces is C# code that will be executed on the server.
     - `ViewData["Title"] = "Home page";` => This is C# code that sets the page title. Where is this variable referenced? Look in `_Layout.cshtml`
    
-2. The rest of `Index.cshtml` is HTML code. Notice this isn't a complete HTML page. The header, footer, and common navigation HTML code are in `_Layout.cshtml` and pulled in automaticallyed when the page is rendered.
+2. The rest of `Index.cshtml` is HTML code. Notice this isn't a complete HTML page. The header, footer, and common navigation HTML code are in `_Layout.cshtml` and pulled in automatically when the page is rendered.
     - Look in `_Layout.cshtml`. Find the `@RenderBody()` line. That is where the HTML code is inserted.
   
-3. There is nothing to complete for this task, just familiarze yourself with Razor Pages.
+3. There is nothing to complete for this task, just familiarize yourself with Razor Pages.
 
 ## Task 3: Create your own Razor Page
 1. Create a new Razor Page called `Time.cshtml` in the Pages folder with the following code:
