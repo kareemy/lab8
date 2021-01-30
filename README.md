@@ -77,7 +77,7 @@
 
 3. Within the Page Model create a string Property called Message and set it equal to some text.
     ```
-    public class TimeModel : Page Model
+    public class TimeModel : PageModel
     {
       public string Message {get; set;}
       
